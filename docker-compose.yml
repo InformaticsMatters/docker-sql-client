@@ -1,0 +1,25 @@
+---
+
+# SQL (PostgreSQL and MySQL) Client Image Docker-Compose file.
+#
+# You can control some of the behaviour of the build
+# with environment variables: -
+#
+# - IMAGE_TAG The client image version tag
+#             (default latest)
+#
+# i.e.: -
+#
+#   IMAGE_TAG=2020.1 docker-compose build
+#   IMAGE_TAG=2020.1 docker-compose push
+
+version: '3.6'
+
+services:
+
+  sql-client:
+    build:
+      context: .
+    image: "informaticsmatters/sql-client:${IMAGE_TAG:-latest}"
+    container_name: sql-client
+
