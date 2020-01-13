@@ -4,7 +4,7 @@
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/informaticsmatters/sql-client)
 
 A simple Alpine-based container image for SQL-database client operations.
-The image **CMD** `executes `/home/client/script.sh`. Mount your own script
+The image **CMD** executes `/home/client/script.sh`. Mount your own script
 in order to execute your own PostgreSQL or MySQL commands.
 
 Built with: -
