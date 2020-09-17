@@ -3,6 +3,8 @@
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/informaticsmatters/sql-client)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/informaticsmatters/sql-client)
 
+[![CodeFactor](https://www.codefactor.io/repository/github/informaticsmatters/docker-sql-client/badge)](https://www.codefactor.io/repository/github/informaticsmatters/docker-sql-client)
+
 A simple Alpine-based container image for SQL-database client operations.
 The image **CMD** executes `/home/client/script.sh`. Mount your own script
 in order to execute your own PostgreSQL or MySQL commands.
