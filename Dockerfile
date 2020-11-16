@@ -1,11 +1,11 @@
-FROM alpine:3.11.2
+FROM alpine:3.12.1
 
 # Labels
 LABEL maintainer='Alan Christie <achristie@informaticsmatters.com>'
 
 RUN apk add \
-        postgresql-client=12.1-r0 \
-        mysql-client=10.4.10-r0 \
+        postgresql-client=12.4-r0 \
+        mysql-client=10.4.15-r0 \
         tzdata && \
     apk upgrade
 

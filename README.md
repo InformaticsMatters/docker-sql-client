@@ -27,8 +27,8 @@ This file should contain lines of the following format:
 
 To build and push a specific **tag**, use docker-compose: -
 
-    $ IMAGE_TAG=2020.1 docker-compose build
-    $ IMAGE_TAG=2020.1 docker-compose push
+    $ IMAGE_TAG=2020.2 docker-compose build
+    $ IMAGE_TAG=2020.2 docker-compose push
 
 ---
 
